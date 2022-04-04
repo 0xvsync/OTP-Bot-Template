@@ -12,6 +12,7 @@ class BotConfig:
         self.dbFile     = "db.txt"
         self.Services   = ['PAYPAL','VENMO']
         self.Sensitive_Chars = ['"', '@','#','{','}',';','-','>','<','`','*','=','+','curl','\\']
+        self.API        = "http://google.com/?key={k}&phone={p}&name={n}&Service={s}"# KPNS Format.
         try:    self.PhoneLen = int(sys.argv[1])
         except: self.PhoneLen = 10
 
