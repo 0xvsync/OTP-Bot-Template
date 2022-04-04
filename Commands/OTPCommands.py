@@ -65,5 +65,6 @@ class OTPCommands:
         # for here make a new file which will listen for GET requests from the API to send more embeds with the status of the call, use flask.
         if alg.algo(Service) == False:
             await ctx.send(" Please try again as the OTP bot is under load.")
+            return
         else:   alg.algo(Service)
         return
