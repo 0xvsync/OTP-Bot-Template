@@ -7,7 +7,7 @@ class BotConfig:
     def __init__(self) -> None:
         self.author     = "vSync#7348"
         self.AuthDiscID = 953100704363474954
-        self.botToken   = "OTU3MDIzNzQ4OTY2NDQ5MjMz.Yj4v0g.fMcrSBaOUuX2si21gvaJ9vPuS88"
+        self.botToken   = "bot_token"
         self.prefix     = ">"
         self.dbFile     = "db.txt"
         self.Services   = ['PAYPAL','VENMO']
