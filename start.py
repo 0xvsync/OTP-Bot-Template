@@ -1,4 +1,3 @@
-import sys
 import discord, requests, os, time, random, sys
 from discord.ext import commands
 from Commands.OTPCommands import *
